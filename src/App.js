@@ -82,7 +82,7 @@ function App() {
     } else if (i === "background") {
       color = "white";
     } else if (i === "border") {
-      color = "#f1f1f1";
+      color = "#e9e9e9";
     }
 
     return color;
@@ -115,19 +115,19 @@ function App() {
               </span>
             </div>
             <div className="col-div">
-              <div style={{ width: "109.6px", display: "flex" }}>
+              <div style={{ width: "6%", display: "flex" }}>
                 <div style={{ marginLeft: "auto", marginRight: "auto" }}>
                   Clase
                 </div>
               </div>
-              <div style={{ width: "289.6px", display: "flex" }}>
+              <div style={{ width: "34%", display: "flex" }}>
                 <div style={{ marginLeft: "auto", marginRight: "auto" }}>
                   Alumno
                 </div>
               </div>
               <span
                 style={{
-                  width: "59.6px",
+                  width: "5%",
                   textAlign: "center",
                   display: "flex",
                   flexDirection: "column",
@@ -143,7 +143,7 @@ function App() {
               </span>
               <span
                 style={{
-                  width: "64.6px",
+                  width: "6%",
                   textAlign: "center",
                   display: "flex",
                   flexDirection: "column",
@@ -159,7 +159,7 @@ function App() {
               </span>
               <span
                 style={{
-                  width: "59.6px",
+                  width: "5%",
                   textAlign: "center",
                   display: "flex",
                   flexDirection: "column",
@@ -175,7 +175,7 @@ function App() {
               </span>
               <span
                 style={{
-                  width: "64.6px",
+                  width: "6%",
                   textAlign: "center",
                   display: "flex",
                   flexDirection: "column",
@@ -191,7 +191,7 @@ function App() {
               </span>
               <span
                 style={{
-                  width: "64.6px",
+                  width: "6%",
                   textAlign: "center",
                   display: "flex",
                   flexDirection: "column",
@@ -211,17 +211,17 @@ function App() {
             {alumnos.map((data, idx) => (
               <div className="alumno-row" key={data.id}>
                 <input
-                  style={{ width: "100px" }}
+                  style={{ width: "6%" }}
                   defaultValue={data.clase}
                   onChange={(e) => changeClass(e, idx)}
                 />
                 <input
-                  style={{ width: "280px" }}
+                  style={{ width: "34%" }}
                   defaultValue={data.nombre}
                   onChange={(e) => changeName(e, idx)}
                 />
                 <input
-                  style={{ width: "50px" }}
+                  style={{ width: "5%" }}
                   defaultValue={data.injustificadas}
                   onChange={(e) => changeInjustif(e, idx)}
                 />
@@ -233,18 +233,18 @@ function App() {
                     100
                   ).toFixed(2)}
                   style={{
-                    width: "55px",
+                    width: "6%",
                     backgroundColor: getColor(data, "background"),
                     borderColor: getColor(data, "border"),
                   }}
                 />
                 <input
-                  style={{ width: "50px" }}
+                  style={{ width: "5%" }}
                   defaultValue={data.justificadas}
                   onChange={(e) => changeJustif(e, idx)}
                 />
                 <input
-                  style={{ width: "55px" }}
+                  style={{ width: "6%" }}
                   type="number"
                   readOnly
                   value={(
@@ -253,7 +253,7 @@ function App() {
                   ).toFixed(2)}
                 />
                 <input
-                  style={{ width: "55px" }}
+                  style={{ width: "6%" }}
                   type="number"
                   readOnly
                   value={(

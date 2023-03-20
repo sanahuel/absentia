@@ -167,3 +167,54 @@ input:focus {
   margin-right: auto;
   margin-top: 5%;
 }
+
+@media only screen and (max-width: 600px) {
+  * {
+    font-size: 5px;
+  }
+  .col-div {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .alumno-row {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
+@media only screen and (max-width: 1024px) and (min-width: 600px) {
+  * {
+    font-size: 10px;
+  }
+  .col-div {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .alumno-row {
+    width: 92%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}
