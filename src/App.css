@@ -1,8 +1,4 @@
 * {
-  /* margin: 0;
-  padding: 0; */
-  /* box-sizing: border-box; */
-
   color: inherit;
   font-size: inherit;
   scroll-behavior: smooth;
@@ -17,10 +13,11 @@
   height: 100%;
   width: 100%;
 }
+
 .border-div {
   position: relative;
-  left: 8%;
-  width: 80%;
+  left: 7%;
+  width: 81%;
   padding-top: 1px;
   margin-bottom: 10px;
   border-bottom: 1.5px solid #f1f1f1;
@@ -37,12 +34,21 @@
   margin-right: auto;
   padding-bottom: 25px;
   padding-top: 25px;
-  /* min-width: 400px; */
   box-shadow: 1px 1px 7px rgba(228, 228, 228, 0.734);
 }
 
+.title-div {
+  position: relative;
+  width: 84%;
+  left: -2%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .alumno-row {
-  width: 85%;
+  width: 87%;
   margin-left: auto;
   margin-right: auto;
   padding-top: 5px;
@@ -66,10 +72,11 @@ input:focus {
 }
 
 .long-input {
-  width: 35%;
+  width: 26%;
 }
+
 .col-div {
-  width: 86%;
+  width: 87%;
   margin-left: auto;
   margin-right: auto;
   margin-top: 17px;
@@ -134,7 +141,7 @@ input:focus {
 
 .print-button {
   position: relative;
-  left: -40.4%;
+  left: 39.1%;
   border-radius: 100%;
   background-color: white;
   color: #333;
