@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/absentia/static/css/main.82121236.css",
+    "main.css": "/absentia/static/css/main.7c58ab7a.css",
     "main.js": "/absentia/static/js/main.0f2f65f9.js",
     "index.html": "/absentia/index.html",
     "static/media/print.svg": "/absentia/static/media/print.fdda633daeaf5828f2ec387e8b5238dd.svg",
     "static/media/clear.svg": "/absentia/static/media/clear.244b66874c46718f7e0607d3acebaccf.svg",
-    "main.82121236.css.map": "/absentia/static/css/main.82121236.css.map",
+    "main.7c58ab7a.css.map": "/absentia/static/css/main.7c58ab7a.css.map",
     "main.0f2f65f9.js.map": "/absentia/static/js/main.0f2f65f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.82121236.css",
+    "static/css/main.7c58ab7a.css",
     "static/js/main.0f2f65f9.js"
   ]
 }
